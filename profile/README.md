@@ -46,22 +46,12 @@ The heart of the Wendy platform - a CLI and app manager for WendyOS written in S
 Visual Studio Code extension for Wendy development, providing seamless integration with the Wendy CLI and device management.
 
 #### [samples](https://github.com/wendylabsinc/samples)
-Sample applications demonstrating how to build applications with Wendy across multiple languages:
-- Python (hello-world)
-- Swift (hello-world)
-- Rust (hello-world, simple-server)
-- Node.js/TypeScript (hello-world, simple-server)
+Sample applications demonstrating how to build applications with Wendy across multiple languages.
 
 ### Operating System
 
 #### [meta-wendyos-jetson](https://github.com/wendylabsinc/meta-wendyos-jetson)
-Yocto meta-layer for building WendyOS for NVIDIA Jetson Orin Nano Developer Kit. Includes Docker-based build environment and Mender OTA update support.
-
-**Features:**
-- Yocto-based
-- Multiple image size configurations (4GB-64GB)
-- NVMe and eMMC/SD card support
-- OTA Updates
+Yocto meta-layer for building WendyOS for NVIDIA Jetson Orin Nano Developer Kit. Includes Docker-based build environment and OTA update support.
 
 ### System Libraries (Swift)
 
@@ -79,7 +69,3 @@ TensorRT Swift 6.2 bindings for Linux, enabling high-performance deep learning i
 
 #### [deepstream-swift](https://github.com/wendylabsinc/deepstream-swift)
 DeepStream Swift bindings for building intelligent video analytics applications.
-
----
-
-Built with ❤️ by Wendy Labs
