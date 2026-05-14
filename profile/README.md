@@ -3,7 +3,7 @@
 Wendy is the open-source developer stack for physical AI. Build for NVIDIA Jetsons, Raspberry Pi, embedded Linux with just a USB-C cable. 
 
 Start here:
-1. [wendy-agent]([https://](https://github.com/wendylabsinc/wendy-agent) — CLI + device agent for deploying/debugging apps
+1. [wendy-agent](https://github.com/wendylabsinc/wendy-agent) — CLI + device agent for deploying/debugging apps
 2. [WendyOS](https://github.com/wendylabsinc/wendyos) — Yocto-based OS images for Jetson and Raspberry Pi
 3. [templates](https://github.com/wendylabsinc/wendyos) — starter apps
 
