@@ -7,10 +7,8 @@ Start here:
 2. [WendyOS](https://github.com/wendylabsinc/wendyos-builder) — OS image build scripts & CI.
 3. [templates](https://github.com/wendylabsinc/templates) — starter apps
 
-⭐ Star wendy-agent if you want to follow the core developer platform:
-https://github.com/wendylabsinc/wendy-agent
-- **Main Documentation**: https://wendy.sh/docs/
-- **Website**: https://wendy.sh
+- **Main Documentation**: https://docs.wendy.dev/
+- **Website**: https://wendy.dev
 
 ## What is Wendy?
 
@@ -39,26 +37,14 @@ https://github.com/wendylabsinc/wendy-agent
 
 ### Core Platform
 
-#### [wendy-agent](https://github.com/wendylabsinc/wendy-agent)
-The heart of the Wendy platform - a CLI and app manager for WendyOS written in Swift. Handles application deployment, debugging, and device management.
-
-**Key Features:**
-- Swift 6.2+ with modern async/await
-- Docker-based application management
-- Remote debugging with LLDB
-- Network configuration (NetworkManager/ConnMan support)
-- Privacy-first analytics
+#### [wendyos](https://github.com/wendylabsinc/wendyos)
+The heart of the Wendy platform - a CLI and app manager for WendyOS. Handles application deployment, debugging, and device management.
 
 #### [wendy-vscode](https://github.com/wendylabsinc/wendy-vscode)
 Visual Studio Code extension for Wendy development, providing seamless integration with the Wendy CLI and device management.
 
 #### [samples](https://github.com/wendylabsinc/samples)
 Sample applications demonstrating how to build applications with Wendy across multiple languages.
-
-### Operating System
-
-#### [meta-wendyos-jetson](https://github.com/wendylabsinc/meta-wendyos-jetson)
-Yocto meta-layer for building WendyOS for NVIDIA Jetson Orin Nano Developer Kit. Includes Docker-based build environment and OTA update support.
 
 ### System Libraries (Swift)
 
