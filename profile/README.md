@@ -14,15 +14,6 @@ Start here:
 
 **Wendy** is a comprehensive CLI and development platform that makes it simple to build, deploy, and debug applications on edge devices like NVIDIA Jetson, Raspberry Pi, and other ARM-based hardware. It brings the ease of modern cloud development to the edge computing world.
 
-### Key Features
-
-- **Multi-Language Support**: Build applications in Swift, Python, Rust, TypeScript/Node.js, and more
-- **Cross-Platform Development**: Develop on macOS or Linux, deploy to ARM devices
-- **Container-Based Deployment**: Automatic Docker containerization and multi-architecture builds
-- **Remote Debugging**: Full LLDB debugging support for edge applications
-- **Developer Experience**: Simple commands like `wendy run` handle all the complexity
-- **Privacy-First Analytics**: Optional anonymous usage analytics to help improve the developer experience
-
 ## What is WendyOS?
 
 **WendyOS** is a custom Linux distribution based on Yocto/OpenEmbedded, specifically optimized for edge computing devices. It provides a minimal, secure, and production-ready operating system for IoT and edge applications.
@@ -34,31 +25,3 @@ Start here:
 - **Minimal Footprint**: Headless, systemd-based init, optimized for embedded systems
 - **Production Ready**: Secure, stable, and designed for long-term deployment
 - **Developer Friendly**: Pre-configured with Docker, SSH, and development tools
-
-### Core Platform
-
-#### [wendyos](https://github.com/wendylabsinc/wendyos)
-The heart of the Wendy platform - a CLI and app manager for WendyOS. Handles application deployment, debugging, and device management.
-
-#### [wendy-vscode](https://github.com/wendylabsinc/wendy-vscode)
-Visual Studio Code extension for Wendy development, providing seamless integration with the Wendy CLI and device management.
-
-#### [samples](https://github.com/wendylabsinc/samples)
-Sample applications demonstrating how to build applications with Wendy across multiple languages.
-
-### System Libraries (Swift)
-
-#### [dbus](https://github.com/wendylabsinc/dbus)
-Pure Swift 6 D-Bus protocol implementation with SwiftNIO and modern concurrency support. Enables interprocess communication on Linux systems.
-
-#### [bluetooth](https://github.com/wendylabsinc/bluetooth)
-Swift Bluetooth (Bluez) library for Linux, enabling BLE communication on edge devices.
-
-#### [gstreamer](https://github.com/wendylabsinc/gstreamer)
-Swift 6.2 GStreamer wrapper for robotics and computer vision applications on Jetson devices.
-
-#### [tensorrt-swift](https://github.com/wendylabsinc/tensorrt-swift)
-TensorRT Swift 6.2 bindings for Linux, enabling high-performance deep learning inference on NVIDIA hardware.
-
-#### [deepstream-swift](https://github.com/wendylabsinc/deepstream-swift)
-DeepStream Swift bindings for building intelligent video analytics applications.
