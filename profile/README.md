@@ -4,7 +4,7 @@ Wendy is the open-source developer stack for physical AI. Build for NVIDIA Jetso
 
 Start here:
 1. [WendyOS](https://github.com/wendylabsinc/wendyos) — Developer tools and runtime.
-2. [WendyOS](https://github.com/wendylabsinc/wendyos-builder) — OS image build scripts & CI.
+2. [WendyOS-Builder](https://github.com/wendylabsinc/wendyos-builder) — OS image build scripts & CI.
 3. [templates](https://github.com/wendylabsinc/templates) — starter apps
 
 - **Main Documentation**: https://docs.wendy.dev/
